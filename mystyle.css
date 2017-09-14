@@ -5,40 +5,14 @@
 body{
 	background-color: #2980b9;
 }
-a:link{
-	text-decoration: none;
-}
-.container {
-  top: 45%;
-  left:  30%;
-  width: 500px;
-  position: absolute;
-  text-align:center;
-}
-
-.block {
-  background: #3498db;
-  height: 10%;
-  width: 150px;
-  display:inline-block;
-  margin: 8px;
-  border-radius:5px;
-}
-.block p{
-	color: white;
-}
-.header1 h1{
-  text-align: center;
+h1{
   height: 250px;
   line-height: 250px;
   font-family: track;
   font-size: 100px;
-  color: white;	
+  color: white;
 }
-video{
-	position: absolute;
-	width: 100%;
-	top: 0px;
-	left: 0px;
-	height: 100%;
+h2{
+  font-size: 25px;
+  color: white;
 }
