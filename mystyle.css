@@ -1,18 +1,45 @@
 @font-face {
-    font-family: 'track'; /*a name to be used later*/
-    src: url('fonts/track.otf'); /*URL to font*/
+    font-family: 'fc'; /*a name to be used later*/
+    src: url('fonts/fc.ttf'); /*URL to font*/
 }
-body{
-	background-color: #2980b9;
+
+html,body{
+  background: url(bilder/smash.png) no-repeat center center fixed;
+  background-size: cover;
 }
-h1{
-  height: 250px;
-  line-height: 250px;
-  font-family: track;
-  font-size: 100px;
+.navbar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  width: 100%;
+}
+.navbar img{
+  float: left;
+  margin: 5px;
+  margin-left: 20px;
+  height: 90px;
+
+}
+.navbar a{
+  float: right;
+  line-height: 100px;
+  margin-right: 200px;
+  font-size: 50px;
+  text-decoration: none;
   color: white;
+  font-family: fc;
 }
-h2{
-  font-size: 25px;
+.navbar a:hover{
+   color: #582a71;
+}
+.mainpage {
+  margin-left:10%;
+  margin-top: 20%;
+  width: 30%;
+}
+.mainpage h1{
+  font-size:150px;
+  font-family: fc;
   color: white;
 }
