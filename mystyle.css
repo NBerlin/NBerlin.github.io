@@ -25,7 +25,7 @@ html,body{
   float: right;
   line-height: 100px;
   margin-right: 200px;
-  font-size: 40px;
+  font-size: 30px;
   text-decoration: none;
   color: white;
   font-family: fc;
@@ -42,4 +42,33 @@ html,body{
   font-size:150px;
   font-family: fc;
   color: white;
+}
+.glicko{
+  position: absolute;
+  top: 100%;
+  left: 5%;
+  height: 80%;
+}
+.mainlist{
+  float: left;
+  color: white;
+  font-size: 30px;
+  width: auto;
+  padding: 15px;
+  border: 1px solid grey;
+  text-align: right;
+}
+.sidelist{
+  float: left;
+  margin-left: 100px;
+  border: 1px solid grey;
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+  width: auto;
+  text-align: right;
+}
+.sidelist h3,.mainlist h3{
+  text-align: center;
+  text-decoration: underline;
 }
