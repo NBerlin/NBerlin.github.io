@@ -25,7 +25,7 @@ html,body{
   float: right;
   line-height: 100px;
   margin-right: 200px;
-  font-size: 30px;
+  font-size: 40px;
   text-decoration: none;
   color: white;
   font-family: fc;
@@ -69,6 +69,7 @@ html,body{
   text-align: right;
 }
 .sidelist h3,.mainlist h3{
+  font-family: fc;
   text-align: center;
   text-decoration: underline;
 }
