@@ -46,8 +46,8 @@ html,body{
 .glicko{
   position: absolute;
   top: 100%;
-  left: 5%;
-  height: 80%;
+  left: 3%;
+  height: 75%;
 }
 .mainlist{
   float: left;
@@ -91,7 +91,7 @@ html,body{
 .sidelist{
 
   float: left;
-  margin-left: 100px;
+  margin-left: 50px;
   border: 1px solid grey;
   padding: 15px;
   color: white;
