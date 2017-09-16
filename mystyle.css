@@ -56,10 +56,37 @@ html,body{
   width: auto;
   padding: 15px;
   border: 1px solid grey;
-  text-align: right;
+  text-align: left;
 }
 .pikachumain{
   list-style-image: url(bilder/pikachuicon.png);
+}
+.dk{
+  list-style-image: url(bilder/dk.png);
+}
+.sheik{
+  list-style-image: url(bilder/sheik.png);
+}
+.marth{
+  list-style-image: url(bilder/marth.png);
+}
+.samus{
+  list-style-image: url(bilder/samus.png);
+}
+.peach{
+  list-style-image: url(bilder/peach.png);
+}
+.fox{
+  list-style-image: url(bilder/neutralfox.png);
+}
+.rfalco{
+  list-style-image: url(bilder/rfalco.png);
+}
+.rfalcon{
+  list-style-image: url(bilder/rfalcon.png);
+}
+.puff{
+  list-style-image: url(bilder/puff.png);
 }
 .sidelist{
 
@@ -70,7 +97,7 @@ html,body{
   color: white;
   font-size: 30px;
   width: auto;
-  text-align: right;
+  text-align: left;
 }
 .sidelist h3,.mainlist h3{
   font-family: fc;
